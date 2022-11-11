@@ -1,0 +1,42 @@
+body{
+	background-color:#BD86C0 ;
+	margin: 0;
+	align-items: center;
+}
+body,
+#results,
+#data{
+	display: flex;
+}
+body,
+#data{
+	flex-direction: column;
+}
+button{
+	color: whitesmoke;
+	font-size: 18px;
+	border: 3px solid #663B76;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+button,
+#data{
+	background-color:#663B76;
+}
+#success{
+	font-size: 30px; 
+	color: ;
+	padding-bottom: 5px; 
+}
+#results{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#data{
+	width: 301px;
+	color: white;
+	border: 1px solid #BA80C7 ;
+}
+p{
+	margin-left: 15px;
+}
